@@ -14,7 +14,7 @@ on:
         required: true
 
 env:
-  PACT_BROKER_BASE_URL: https://testdemo.pactflow.io
+  PACT_BROKER_BASE_URL: https://smartbear-cc.pactflow.io
   PACT_BROKER_TOKEN: ${{ secrets.PACTFLOW_TOKEN_FOR_CI_CD_WORKSHOP }}
   PACT_BROKER_PUBLISH_VERIFICATION_RESULTS: true
   PACT_BROKER_HOST: testdemo.pactflow.io # For pact-jvm
